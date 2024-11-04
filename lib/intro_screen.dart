@@ -40,20 +40,6 @@ class _IntroScreenState extends State<IntroScreen> {
             SafeArea(child: GetFruits()),
           ],
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          currentIndex: _currentPageIndex,
-          onTap: _onItemTapped,
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.add),
-              label: 'Add Fruit',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.list),
-              label: 'View Fruits',
-            ),
-          ],
-        ),
       ),
     );
   }
